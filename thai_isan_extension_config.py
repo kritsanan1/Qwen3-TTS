@@ -79,7 +79,7 @@ class ThaiIsanExtensionConfig:
             "condition": "etymological_ɲ",
             "input": "j",
             "output": "ɲ",
-            "examples": ["ยาก" → "หญาก"]
+            "examples": ["ยาก" -> "หญาก"]
         },
         "w_to_ʋ": {
             "condition": "vientiane_dialect",
