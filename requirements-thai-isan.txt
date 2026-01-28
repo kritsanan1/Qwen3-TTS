@@ -1,0 +1,117 @@
+# Thai-Isan TTS System Requirements
+# Comprehensive dependencies for Thai and Isan speech synthesis
+
+# Core ML/DL Frameworks
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+pyaudio>=0.2.11
+sounddevice>=0.4.6
+pydub>=0.25.1
+sox>=1.4.1
+resampy>=0.4.0
+
+# Thai Language Processing
+pythainlp>=4.0.0
+thai-segmentation>=0.3.0
+thai-tone>=0.2.0
+
+# Quality Assessment
+pesq>=0.0.3
+pystoi>=0.3.3
+jiwer>=3.0.0
+
+# Data Science & Analytics
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web Interface
+streamlit>=1.28.0
+gradio>=4.0.0
+flask>=2.3.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# Database & Storage
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+redis>=4.6.0
+minio>=7.1.0
+
+# Logging & Monitoring
+wandb>=0.15.0
+tensorboard>=2.13.0
+mlflow>=2.7.0
+prometheus-client>=0.17.0
+
+# Distributed Training
+deepspeed>=0.10.0
+fairscale>=0.4.13
+
+# Audio Enhancement
+noisereduce>=3.0.0
+webrtcvad>=2.0.10
+pyannote.audio>=3.1.0
+
+# Voice Activity Detection
+silero-vad>=4.0.0
+
+# Text Processing
+nltk>=3.8.0
+spacy>=3.6.0
+gensim>=4.3.0
+
+# Parallel Processing
+joblib>=1.3.0
+multiprocessing-logging>=0.3.0
+
+# Configuration Management
+hydra-core>=1.3.0
+omegaconf>=2.3.0
+pyyaml>=6.0
+
+# Development Tools
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+pre-commit>=3.4.0
+
+# API & Communication
+requests>=2.31.0
+aiohttp>=3.8.0
+websockets>=11.0
+
+# Utility Libraries
+tqdm>=4.66.0
+click>=8.1.0
+argparse>=1.4.0
+pathlib2>=2.3.7
+typing-extensions>=4.7.0
+
+# Optional: GPU Acceleration
+# torch-audio-cuda>=2.0.0  # Uncomment if using CUDA
+# nvidia-ml-py>=12.0.0     # For GPU monitoring
+
+# Optional: Cloud Storage
+# boto3>=1.28.0  # AWS S3
+# google-cloud-storage>=2.10.0  # Google Cloud Storage
+# azure-storage-blob>=12.17.0  # Azure Blob Storage
+
+# Optional: Advanced Audio
+# essentia>=2.1b6  # Advanced audio analysis
+# madmom>=0.16.1   # Audio signal processing
+
+# Optional: Real-time Processing
+# pyaudio-async>=0.1.0  # Async audio I/O
+# asyncio-mqtt>=0.13.0  # MQTT for IoT integration
